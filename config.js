@@ -1,14 +1,14 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://blog.adescode.com',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
-  copyright: '© All rights reserved.',
+  title: 'Blog by AiA(Adescode)',
+  subtitle: 'Every finish line is the beginning of a new race, this is not the end',
+  copyright: '© 2020 All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  googleAnalyticsId: 'UA-138437676-1',
   useKatex: false,
   menu: [
     {
@@ -25,23 +25,23 @@ module.exports = {
     }
   ],
   author: {
-    name: 'John Doe',
-    photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    name: 'Adelaja Ibrahim',
+    photo: '/main.jpg',
+    bio: 'Javascript for Web and Mobile Application. React | React-Native | Nodejs. Professional Googler.',
     contacts: {
-      email: '',
-      facebook: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
+      email: 'adelaja444@gmail.com',
+      facebook: 'adescode',
+      telegram: 'adescode',
+      twitter: 'adescode',
+      github: 'https://github.com/adescode',
       rss: '',
       vkontakte: '',
-      linkedin: '#',
-      instagram: '#',
+      linkedin: 'adescode/',
+      instagram: 'adescode_/',
       line: '',
       gitlab: '',
       weibo: '',
-      codepen: '',
+      codepen: 'adescode',
       youtube: ''
     }
   }
