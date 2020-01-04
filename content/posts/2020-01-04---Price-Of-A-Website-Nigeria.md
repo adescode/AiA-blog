@@ -1,17 +1,16 @@
 ---
+template: post
 title: Price of a Website in Nigeria 2020
-date: "2016-09-01T23:46:37.121Z"
-template: "post"
+slug: price-of-a-website-in-nigeria-2020
 draft: false
-slug: "price-of-a-website-in-nigeria-2020"
-category: "Web development"
+date: 2020-01-01T13:00:00.000Z
+description: How much does it cost to build a website in Nigeria
+category: Web development
 tags:
-  - "Website"
-  - "Price"
-  - "Nigeria"
-  - "2020"
-description: "How much does it cost to build a website in Nigeria"
-socialImage: "/media/img-price-nig.jpg"
+  - Website
+  - Price
+  - Nigeria
+  - '2020'
 ---
 
 In building a website there are two things to consider, type of website and who is developing it.
