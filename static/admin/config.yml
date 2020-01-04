@@ -1,5 +1,7 @@
 backend:
-  name: git-gateway
+  # name: git-gateway
+  name: github
+  repo: adescode/AiA-blog
   branch: master
 
 media_folder: "static/media"
