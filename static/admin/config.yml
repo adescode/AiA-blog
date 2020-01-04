@@ -28,7 +28,6 @@ collections:
       - {label: "Category", name: "category", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
-      - {label: "Social Image", name: "socialImage", widget: "string"}
 
   - name: "pages"
     label: "Pages"

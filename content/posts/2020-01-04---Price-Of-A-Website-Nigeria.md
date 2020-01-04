@@ -11,6 +11,7 @@ tags:
   - Price
   - Nigeria
   - '2020'
+socialImage: "/media/img-price-nig.jpg"
 ---
 
 In building a website there are two things to consider, type of website and who is developing it.
