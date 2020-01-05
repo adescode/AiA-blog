@@ -2,7 +2,7 @@
 template: page
 title: About Me
 slug: About me
-draft: true
+draft: false
 ---
 
 I'm Adelaja Ibrahim Abiola, a Front-End Engineer with over 3 years experience in Javascript, also high practicing and application of popular javascript frameworks in different projects. Currently doing more of React and React-native projects like banking app, ride sharing app, movie app and delivery App.
