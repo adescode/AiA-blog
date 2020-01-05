@@ -1,7 +1,7 @@
 ---
 template: page
 title: About Me
-slug: About me
+slug: about
 draft: false
 ---
 
