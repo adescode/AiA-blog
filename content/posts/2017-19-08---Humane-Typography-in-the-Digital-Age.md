@@ -1,22 +1,24 @@
 ---
+template: post
 title: Humane Typography in the Digital Age
-date: "2017-08-19T22:40:32.169Z"
-template: "post"
-draft: false
-slug: "humane-typography-in-the-digital-age"
-category: "Typography"
+slug: humane-typography-in-the-digital-age
+draft: true
+date: '2017-08-19T22:40:32.169Z'
+description: >-
+  An Essay on Typography by Eric Gill takes the reader back to the year 1930.
+  The year when a conflict between two worlds came to its term. The machines of
+  the industrial world finally took over the handicrafts.
+category: Typography
 tags:
-  - "Design"
-  - "Typography"
-  - "Web Development"
-description: "An Essay on Typography by Eric Gill takes the reader back to the year 1930. The year when a conflict between two worlds came to its term. The machines of the industrial world finally took over the handicrafts."
-socialImage: "/media/42-line-bible.jpg"
+  - Design
+  - Typography
+  - Web Development
+socialImage: /media/42-line-bible.jpg
 ---
-
-- [The first transition](#the-first-transition)
-- [The digital age](#the-digital-age)
-- [Loss of humanity through transitions](#loss-of-humanity-through-transitions)
-- [Chasing perfection](#chasing-perfection)
+* [The first transition](#the-first-transition)
+* [The digital age](#the-digital-age)
+* [Loss of humanity through transitions](#loss-of-humanity-through-transitions)
+* [Chasing perfection](#chasing-perfection)
 
 An Essay on Typography by Eric Gill takes the reader back to the year 1930. The year when a conflict between two worlds came to its term. The machines of the industrial world finally took over the handicrafts.
 
@@ -42,7 +44,7 @@ The first transition took away a large part of humanity from written communicati
 
 > In the new computer age the proliferation of typefaces and type manipulations represents a new level of visual pollution threatening our culture. Out of thousands of typefaces, all we need are a few basic ones, and trash the rest.
 >
-— Massimo Vignelli
+> — Massimo Vignelli
 
 Typography is not about typefaces. It’s not about what looks best, it’s about what feels right. What communicates the message best. Typography, in its essence, is about the message. “Typographical design should perform optically what the speaker creates through voice and gesture of his thoughts.”, as El Lissitzky, a famous Russian typographer, put it.
 
