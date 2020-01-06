@@ -2,7 +2,7 @@
 template: post
 title: Perfecting the Art of Perfections
 slug: perfecting-the-art-of-perfections
-draft: false
+draft: true
 date: '2016-09-01T23:46:37.121Z'
 description: >-
   Quuuuisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at
