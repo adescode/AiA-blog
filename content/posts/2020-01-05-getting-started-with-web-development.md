@@ -13,4 +13,8 @@ tags:
   - js
 socialImage: ' '
 ---
-Thing you need to know before getting started with web development
+Thing you need to know before getting started with web development.
+
+What is Web Development.
+
+What are things needed to get started.
