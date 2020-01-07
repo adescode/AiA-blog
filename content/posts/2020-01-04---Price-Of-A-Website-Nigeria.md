@@ -14,8 +14,13 @@ tags:
 socialImage: "/media/img-price-nig.jpg"
 ---
 
-In building a website there are two things to consider, type of website and who is developing it.
-
 ![How much does it cost to build a website in Nigeria](/media/img-price-nig.jpg)
 
-# Type
+To build a website there are two things to consider, type of website and who is developing it.
+
+
+### Type of websites
+- Staic Website
+- Dynamic Website
+
+Static Website
