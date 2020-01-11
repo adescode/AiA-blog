@@ -41,7 +41,10 @@ To build a website there are two things to consider, type of website and who is 
 
 **By Yourself** building website yourself by writing the code yourself. (I'll be writing a blog soon on how to build your own website and how to host for free stay tune)
 
-Now that we have insight on building a website, How much does it cost to build the two types of website for each of who is developing it.
+Now that we have details on building a website, How much does it cost actually cost to build a website for each of *who is developing it*.
+
+These details doesn't include, price for domain name, Web hosting or any integration subscription. Also not the exact price for any of the *who is developing*, it varies depending on the level of skill for the freelancer and the strength of the web agency company. What i'm giving here is just an heads up of what to expect ahead.
+
 
 <style>
 table {
@@ -63,7 +66,10 @@ tr:nth-child(even) {
 
 
 |   Feature   | Freelancer  | Agency |
-| :---        |    ----:   |          :---: |
-| Pages       | from ₦ 5,000| from ₦ 7,000 |
-| Email Login | from ₦ 12,000| from ₦ 20,000 |
-| Social Login | from ₦ 15,000| from ₦ 25,000 |
+| :---        |    :----   |          :--- |
+| Pages       | from ₦ 5,000| from ₦ 10,000|
+| SEO(Search Engine Optimization) | from ₦ 15,000| from ₦ 20,000|
+| Login(Social/ Email) | from ₦ 35,000/ ₦ 25,000| from ₦ 50,000/ ₦ 40,000|
+| Dynamic User Profile | from ₦ 20,000| from ₦ 30,000|
+| Payments | from ₦ 50,000| from ₦ 100,000|
+| Integrations(firebase, aws) | from ₦ 60,000| from ₦ 100,000|
