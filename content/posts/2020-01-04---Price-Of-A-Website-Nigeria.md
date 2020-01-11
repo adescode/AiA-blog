@@ -43,7 +43,26 @@ To build a website there are two things to consider, type of website and who is 
 
 Now that we have insight on building a website, How much does it cost to build the two types of website for each of who is developing it.
 
-|   feature   | Freelancer  | Web Design Agency |
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+
+
+|   Feature   | Freelancer  | Agency |
 | :---        |    ----:   |          :---: |
 | Pages       | from ₦ 5,000| from ₦ 7,000 |
 | Email Login | from ₦ 12,000| from ₦ 20,000 |
