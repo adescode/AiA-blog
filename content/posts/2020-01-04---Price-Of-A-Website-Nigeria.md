@@ -14,20 +14,30 @@ tags:
 socialImage: "/media/img-price-nig.jpg"
 ---
 
+How much does it cost to build a website in Nigeria.
+
 ![How much does it cost to build a website in Nigeria](/media/img-price-nig.jpg)
 
 To build a website there are two things to consider, type of website and who is developing it.
 
 ### Types of websites
-- Staic Website
+- Static Website
 - Dynamic Website
 
-Static Website are the basic ones. They don’t often change their content and they aren’t updated by users. Mostly, websites of this kind are made for information goals rather than interactions.
+**Static Website** are basic website. They are not interactive, though they can be responsive with good user interface. Users can't update the content only the developer. In general they are information base websites, where you visit to read contents only no interactions.
 
-Dynamic Website are the ones whose content is regularly updated. Even more, different users often see different information. Remember your experience with any e-commerce website: what you see at a particular opening a website depends on multiple factors such as location, your search history, your being logged-in or logged-out, the relevance of some positions to the season or hot sales and so on, and so forth. Analyzing all that stuff, the website has to update its content. What’s more, users may generate some content by themselves or customize what they want to see with filters, tags and the like – in this case, the website will have to respond to all the actions dynamically and show the updated content to users. No wonder, we interact with the websites of this kind much more often than with static ones, just because the internet users want much more from a web resource than just some information.
+**Dynamic Website** are secondary website whose content is regularly updated. It's is automated that different information can be pass to different users on the same website. That's where you find features like login, logout, registration, profile update, online payment, location, picture upload and so on. No wonder, we interact with the websites of this kind much more often than with static ones, just because the internet users want much more from a web resource than just some information.
 
 ### Who is developing the website
 - Freelancer
 - Web Design Agency
 - Website Builder
-- By oneself 
+- By Yourself 
+
+**Freelancer** is a person who is self-employed and is not necessarily committed to a particular employer long-term.
+
+**Web Design Agency** is a company/organization that will handle the whole development of your website.
+
+**Website Builder** Website builders are tools that typically allow the construction of websites without manual code editing. 
+
+**By Yourself** building website yourself will cost you the time of development. (I'll be writing a blog soon on how to build your own website and how to host for free stay tune)
