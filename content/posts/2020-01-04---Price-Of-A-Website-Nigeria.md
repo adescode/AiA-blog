@@ -24,9 +24,9 @@ To build a website there are two things to consider, type of website and who is 
 - Static Website
 - Dynamic Website
 
-**Static Website** are basic website. They are not interactive, though they can be responsive with good user interface. Users can't update the content only the developer. In general they are information base websites, where you visit to read contents only no interactions.
+**Static Website** are basic website. They are not interactive, though they can be responsive with good user interface. Users can't update the content only the developer. In general they are information based websites, where you visit to read contents only no interactions.
 
-**Dynamic Website** are secondary website whose content is regularly updated. It's is automated that different information can be pass to different users on the same website. That's where you find features like login, logout, registration, profile update, online payment, location, picture upload and so on. No wonder, we interact with the websites of this kind much more often than with static ones, just because the internet users want much more from a web resource than just some information.
+**Dynamic Website** are secondary website whose content is regularly updated. It's is automated that different information can be passed to different users on the same website. That's where you find features like login, logout, registration, profile update, online payment, location, picture upload and so on. No wonder, we interact with the websites of this kind much more often than with static ones, just because the internet users want much more from a web resource than just some information.
 
 ### Who is developing the website
 - Freelancer
