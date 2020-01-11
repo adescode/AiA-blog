@@ -73,3 +73,8 @@ tr:nth-child(even) {
 | Dynamic User Profile | from ₦ 20,000| from ₦ 30,000|
 | Payments | from ₦ 50,000| from ₦ 100,000|
 | Integrations(firebase, aws) | from ₦ 60,000| from ₦ 100,000|
+
+
+
+
+
