@@ -1,16 +1,18 @@
 ---
-title: Humane Typography in the Digital Age
-date: "2017-08-19T22:40:32.169Z"
-template: "post"
+template: post
+title: How I Created an Android Native Module in React Native
+slug: how-i-created-an-android-native-module-in-react-native
 draft: true
-slug: "humane-typography-in-the-digital-age"
-category: "Typography"
+date: 2020-08-19T18:00:00.000Z
+description: >-
+  Step by Step on how i created a native android module for react-native,
+  following React Native doc
+category: Typography
 tags:
-  - "Design"
-  - "Typography"
-  - "Web Development"
-description: "An Essay on Typography by Eric Gill takes the reader back to the year 1930. The year when a conflict between two worlds came to its term. The machines of the industrial world finally took over the handicrafts."
-socialImage: "/media/42-line-bible.jpg"
+  - Design
+  - Typography
+  - Web Development
+socialImage: /media/42-line-bible.jpg
 ---
 
 - [The first transition](#the-first-transition)
