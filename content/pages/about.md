@@ -9,7 +9,7 @@ I'm Adelaja Ibrahim Abiola, a Front-End Engineer with over 3 years experience us
 
 I have a Bachelor's Degree in Computer Science, with Google Mobile Web Specialist [Certificate](http://bit.ly/aiacert1). Currently a Software Engineer at Jekalo.
 
-I'll be writing here to support myself and others interested in mobile development, web development and sometimes general topics that worth reading about.
+I'll be writing here to support myself and others interested in mobile development, web development and sometimes general topics that worth reading about. Therefore I'll mostly be referring to the way i develop, create or view things, also share a reference link if any.
 
 Kindly understand this isn't a perfect blog because i'll be learning all along, if there's any content you feel uncomfortable or need help with kindly reach me on any of social platform i'm available in, i'll be glad to fix or help right away.
 
