@@ -27,7 +27,7 @@ module.exports = {
   author: {
     name: 'Adelaja Ibrahim',
     photo: '/photo.jpg',
-    bio: 'Javascript for Web and Mobile Application. React | React-Native | Nodejs. Professional Googler.',
+    bio: 'Javascript for Web and Mobile Application. React | React-Native | Nodejs. Professional Googler. Software Engineer at JEKALO',
     contacts: {
       email: 'adelaja444@gmail.com',
       facebook: 'adescode',
