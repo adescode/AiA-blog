@@ -1,31 +1,93 @@
 ---
 template: post
-title: How I Created an Android Native Module in React Native
+title: Creating an Android Native Module in React Native
 slug: how-i-created-an-android-native-module-in-react-native
-draft: true
+draft: false
 date: 2020-01-05T19:02:39.569Z
 description: >-
   Step by Step on how i created a native android module for react-native,
-  following React Native doc
+  following React Native documentation
 category: React-Native
 tags:
   - React-Native
   - Java
   - Native-Module
   - javascript
-socialImage: ' /media/42-line-bible.jpg'
+socialImage: ' /media/android-module.jpg'
 ---
 
-- [The first transition](#the-first-transition)
-- [The digital age](#the-digital-age)
-- [Loss of humanity through transitions](#loss-of-humanity-through-transitions)
-- [Chasing perfection](#chasing-perfection)
+- [What is Native Module and why](#what-is-native-module-and-why)
+- [Creating and Including module in a project](#creating-and-including-module-in-a-project)
+- [Creating React Native Method for Toast module](#loss-of-humanity-through-transitions)
+- [Using Android Toast class](#chasing-perfection)
 
-An Essay on Typography by Eric Gill takes the reader back to the year 1930. The year when a conflict between two worlds came to its term. The machines of the industrial world finally took over the handicrafts.
+I'll be explaining step by step on how to create a Native Android Module for React-Native using React-native [documentation](https://facebook.github.io/react-native/docs/native-modules-android) as a guideline. Though the [documentation](https://facebook.github.io/react-native/docs/native-modules-android) is straight forward, but wasn't really straight like "STRAIGHT" when i first saw it, because I'm not really a java person, I want to pass Strings, set Strings, get Strings, use the callback and promises, so i needed an help like this. Maybe I'll be helping someone this time.
+
+![android-native.jpg](/media/android-module.jpg)
+
+## What is Native Module and why?
+
+A native module is a separate function that uses core native features of a platform(in our case, Android and iOS). For this page we'll only be looking at Android.
+
+Why Make Native Module?<br />
+Most times when developing React Native apps, at some point we want to access a specific feature in our app that React Native doesn't have a corresponding module for yet. Maybe the open source module we found is good but doesn't really satisfy the flow of our project.
+
+## Creating and Including module in a project
+
+To get started there are several ways to include the module we'll be creating to a project.<br />
+1. Create the module somewhere on your computer then include it as a dependency in your project package.json file.
+2. Include the module as a folder in your project, then include it as a package in your project android folder.
+3. Install the module as an npm package in your project, where it will also be add as a dependency in your package.json file.
+## 1.
+
+Get the basic [Native Modules Setup]('https://facebook.github.io/react-native/docs/native-modules-setup') to get started. Follow the instruction then continue here.
+
+After you've successfully created the module, include it as a dependency in your project package.json
+![pckjson.png](/media/pckjson.png)
+## 2.
+You can also create a module in your project folder directly.
+```js
+$ yarn global add create-react-native-module
+```
+`create-react-native-module` is now globally available on your computer.
+So lets add a module to your project<br />
+It's assumed that you have a project which you created by doing `react-native init yourprojectname`<br/>
+In your project folder create a `ToastAlert` Module by doing:
+```js
+$ create-react-native-module ToastAlert
+```
+Where `ToastAlert` is the name you would like for the new module. A folder would be created called `react-native-toast-alert` which is the module folder for `ToastAlert`.
+![mainapp.png](/media/mainapp.png)
+*Your module folder structure should look like this*
+
+For your project to recognize this Module you'll need to include it in your project Android.
+- Goto your project android folder locate settings.gradle (android/settings.gradle) then include these lines.
+```java
+include ':react-native-toast-alert'
+project(':react-native-toast-alert').projectDir = new File(rootProject.projectDir, '../react-native-toast-alert/android')
+```
+- Goto your project android folder app build.gradle (android/app/build.gradle), include this line under dependencies.
+```java
+implementation project(":react-native-toast-alert")
+```
+![app-build-gradle.png](/media/app-build-gradle.png)
+- Finally, goto your project android MainApplication (android/app/src/main/java/com/yourprojectname/MainApplication), import module package, then add it to the MainApplication packagelists
+```java
+import com.reactlibrary.ToastAlertPackage;
+```
+```java
+packages.add(new ToastAlertPackage());
+```
+![mainapp.png](/media/mainapp.png)
+
+
+
+
+
 
 The typography of this industrial age was no longer handcrafted. Mass production and profit became more important. Quantity mattered more than the quality. The books and printed works in general lost a part of its humanity. The typefaces were not produced by craftsmen anymore. It was the machines printing and tying the books together now. The craftsmen had to let go of their craft and became a cog in the process. An extension of the industrial machine.
 
-But the victory of the industrialism didn’t mean that the craftsmen were completely extinct. The two worlds continued to coexist independently. Each recognising the good in the other — the power of industrialism and the humanity of craftsmanship. This was the second transition that would strip typography of a part of its humanity. We have to go 500 years back in time to meet the first one.
+But the victory of the industrialism didn’t mean that the craftsmen were completely extinct. The two worlds continued to coexist independently. Each recognizing the good in the other — the power of industrialism and the humanity of craftsmanship. This was the second transition that would strip typography of a part of its humanity. We have to go 500 years back in time to meet the first one.
 
 ## The first transition
 
