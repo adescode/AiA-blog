@@ -2,7 +2,7 @@
 template: post
 title: Creating an Android Native Module in React Native
 slug: how-i-created-an-android-native-module-in-react-native
-draft: true
+draft: false
 date: 2020-01-05T19:02:39.569Z
 description: >-
   Step by Step on how i created a native android module for react-native,
