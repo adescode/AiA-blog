@@ -81,6 +81,6 @@ packages.add(new ToastAlertPackage());
 ![mainapp.png](/media/mainapp.png)
 
 
-## Creating React Native Method for Toast module
+## Creating React Native Method for Android Toast module
 Looking at React Native [documentation](https://facebook.github.io/react-native/docs/native-modules-android#the-toast-module) on Toast module.
 
