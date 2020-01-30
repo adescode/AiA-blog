@@ -82,7 +82,8 @@ packages.add(new ToastAlertPackage());
 
 
 ## Creating React Native Method for Android Toast module
+If you follow any of the two example above to setup your module, let's continue with the toast module.
+
 Looking at React Native [documentation](https://facebook.github.io/react-native/docs/native-modules-android#the-toast-module) on Toast module.
 
-If you follow any of the two example above to setup your module, 
 
