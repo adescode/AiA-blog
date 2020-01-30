@@ -29,7 +29,7 @@ I'll be explaining step by step on how to create a Native Android Module for Rea
 
 A native module is a separate function that uses core native features of a platform(in our case, Android and iOS). For this page we'll only be looking at Android.
 
-Why Make Native Module?<br />
+Why Native Module?<br />
 Most times when developing React Native apps, at some point we want to access a specific feature in our app that React Native doesn't have a corresponding module for yet. Maybe the open source module we found is good but doesn't really satisfy the flow of our project.
 
 ## Creating and Including module in a project
@@ -38,8 +38,8 @@ To get started there are several ways to include the module we'll be creating to
 1. Create the module somewhere on your computer then include it as a dependency in your project package.json file.
 2. Include the module as a folder in your project, then include it as a package in your project android folder.
 3. Install the module as an npm package in your project, where it will also be add as a dependency in your package.json file.
-### 1.
 
+### 1.
 Get the basic [Native Modules Setup]('https://facebook.github.io/react-native/docs/native-modules-setup') to get started. Follow the instruction then continue here.
 
 After you've successfully created the module, include it as a dependency in your project package.json
@@ -83,4 +83,6 @@ packages.add(new ToastAlertPackage());
 
 ## Creating React Native Method for Android Toast module
 Looking at React Native [documentation](https://facebook.github.io/react-native/docs/native-modules-android#the-toast-module) on Toast module.
+
+If you follow any of the two example above to setup your module, 
 
