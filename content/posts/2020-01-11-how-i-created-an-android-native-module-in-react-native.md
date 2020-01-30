@@ -57,7 +57,7 @@ In your project folder create a `ToastAlert` Module by doing:
 $ create-react-native-module ToastAlert
 ```
 Where `ToastAlert` is the name you would like for the new module. A folder would be created called `react-native-toast-alert` which is the module folder for `ToastAlert`.
-![mainapp.png](/media/mainapp.png)
+![mainapp.png](/media/modulestrc.png)
 *Your module folder structure should look like this*
 
 For your project to recognize this Module you'll need to include it in your project Android.
