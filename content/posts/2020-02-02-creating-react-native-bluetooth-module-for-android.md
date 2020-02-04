@@ -13,4 +13,4 @@ tags:
   - Java
 socialImage: images/
 ---
-Step by step
+Steps taking to build a bluetooth module using react-native
